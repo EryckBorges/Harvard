@@ -1,0 +1,23 @@
+.search {
+    background-color: var(--pesquisa-main);
+}
+
+.logo {
+    -webkit-mask-image: url('../image/google.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    background-color: var(--branco);
+    width: 272px;
+    height: 92px;
+    margin-bottom: 38px;
+}
+
+/* Inverte a cor de alguns elementos da página */
+
+main {
+    background-color: var(--box-settings);
+}
+
+.footer {
+    background-color: var(--footer-main-search);
+}
